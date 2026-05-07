@@ -20,7 +20,7 @@ spec:
       containers:
       - name: eks-demo-app
 
-        image: ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/eks-demo-app:latest
+        image: 578339677090.dkr.ecr.us-east-1.amazonaws.com/eks-demo-app:latest
 
         ports:
         - containerPort: 80

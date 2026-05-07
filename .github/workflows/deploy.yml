@@ -31,11 +31,11 @@ jobs:
 
     - name: Tag Docker Image
       run: |
-        docker tag eks-demo-app:latest ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/eks-demo-app:latest
+        docker tag eks-demo-app:latest 578339677090.dkr.ecr.us-east-1.amazonaws.com/eks-demo-app:latest
 
     - name: Push Docker Image
       run: |
-        docker push ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/eks-demo-app:latest
+        docker push 578339677090.dkr.ecr.us-east-1.amazonaws.com/eks-demo-app:latest
 
     - name: Update kubeconfig
       run: |
